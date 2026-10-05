@@ -36,6 +36,18 @@ main{
     margin: auto;
 }
 
+.como{
+    background-color: #ff0606bd;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#como-funciona{
+    background-color: #f6ff00;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
 section{
     margin-bottom: 10px;
     padding: 20px;
