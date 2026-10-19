@@ -12,14 +12,17 @@
 
 <body>
     <header>
-    <h1>Excusómetro</h1>
+    <h1 id="titulo">Excusómetro</h1>
     <p>Excusas que necesitan supervisión profesional</p>
     </header>
     <nav>
-        <a href="#">Detector</a>
+        <a href="#que hacemos?">Que hacemos?</a>
+        <a href="#valorar-excusas">Como funciona?</a>
+        <a href="#detector-excusas">Detector de excusas</a>
+        <a href="#estado">Estado del sistema</a>
     </nav>
     <main>
-        <section class="como">
+        <section class="como"; id="que hacemos?">
             <h2 >Que hacemos?</h2>
             <p>Actualizamos excusas académicas mediante tecnologia poco fiable </p>
             <ul>
@@ -31,13 +34,44 @@
                 <li>Mi internet no funciona</li>
             </ul>
         </section>
-        <section>
-            <h2 id="como-funciona">Como funciona?</h2>
-            <p>El sistema analiza la excusa y determina si es valida o no</p>
+        <section class="como" id="valorar-excusas">
+            <h2>Archivo de grandes clásicos</h2>
+
+            <p>
+                Después de años de investigación de campo, estas son algunas de las
+                especies más frecuentes:
+            </p>
+
+            <article class="excusa">
+                <h3>Yo juraría que lo había subido</h3>
+                <p>Excusa habitual cuando el archivo no aparece </p>
+            </article>
+            <article class="excusa">
+                <h3>En mi ordenador sí funcionaba</h3>
+                <p>Una de las grandes aportaciones de la infomática</p>
+            </article>
+            <article class="excusa">
+                <h3>GitHub estaba raro</h3>
+                <p>Diagnóstico técnico ampliamente utilizado </p>
+            </article>
+            <h3 id="ejemplos">Ejemplos:</h3>
+<select id="excusa">
+    <option value="yo-juraria">Yo juraría que lo había subido</option>
+    <option value="en-mi-ordenador">En mi ordenador sí funcionaba</option>
+    <option value="github-raro">GitHub estaba raro</option>
+    <option value="pensaba-para-la-semana-que-viene">Pensaba que era para la semana que viene</option>
+    <option value="lo-tenia-hecho">Lo tenía hecho, pero no encuentro el archivo</option>
+</select>
+
         </section>
-        <section>
+        <section id="detector-excusas">
             <h2>Detector de excusas</h2>
             <p>Sistema experimental para analizar excusas academicas</p>
+        </section>
+        <section id="estado">
+            <h2 id="estado-2">Estado del sistema</h2>
+            <p>Actualmente operativo y en funcionamiento</p>
+            <p>Índice de credibilidad medio del trimestre: información clasificada.</p>
         </section>
     </main>
     <footer>

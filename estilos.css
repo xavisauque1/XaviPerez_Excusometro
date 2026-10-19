@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+#titulo{
+color: #ffae00; 
+}
 body{
     margin: 0;
     background-color: lightgray;
@@ -36,22 +38,48 @@ main{
     margin: auto;
 }
 
+nav{
+    background-color: #6673ff;
+    padding: 16px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover{
+    color: rgb(254, 248, 65);
+}
 .como{
-    background-color: #ff0606bd;
+    background-color: #babba7;
     padding: 20px;
     margin-bottom: 10px;
 }
 
 #como-funciona{
-    background-color: #f6ff00;
+    background-color: #babba7;
     padding: 20px;
     margin-bottom: 10px;
 }
 
+#estado{
+    background-color: #babba7;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#estado-2{
+    background-color: #babba7;
+    padding: 20px;
+    margin-bottom: 10px;
+}
 section{
     margin-bottom: 10px;
     padding: 20px;
-    background-color: #3212ecb0;
+    background-color: #babba7;
 }
 
 footer{
