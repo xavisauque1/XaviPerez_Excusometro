@@ -86,3 +86,54 @@ footer{
     padding: 20px;
     text-align: center;
 }
+
+.expediente header{
+    background-image: url('ruta/a/Fondo-expediente.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.evidencia{
+    background-color: #f4fb73;
+    padding: 1em;
+    margin: 1.5em 0;
+}
+
+.evidencia img{
+    width: 100%;
+    height: auto;
+}
+
+.dato-estado{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1em;
+    margin-bottom: 0.75em;
+    border: 0.15em solid #d7ff3f;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.etiqueta{
+    font-weight: 700;
+    display: block;
+    font-size: 0.85em;
+    margin-bottom: .3em;
+}
+
+.valor{
+    color: crimson;
+    display: inline-block;
+    background-color: #d7ff3f;
+    padding: .3em .6em;
+    border: 0.1em solid #11a743;
+}
+
+.nivel-credibilidad{
+    background-color: crimson;
+    color: #ffffff;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 0.1em solid #11a743;
+    display: inline-block;
+}
